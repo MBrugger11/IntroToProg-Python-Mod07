@@ -1,7 +1,11 @@
 Mark Brugger
+
 November 30, 2022
+
 IT FDN 110 A – Foundations of Programming: Python
+
 Assignment07
+
 https://github.com/MBrugger11/IntroToProg-Python-Mod07
 
 
