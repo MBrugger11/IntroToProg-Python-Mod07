@@ -34,3 +34,56 @@ This week’s assignment was very open-ended.  We needed to demonstrate working 
 I started with the typical header:
 
 ![This is an image](./images/Picture1.png)
+Figure 1 - Script Header
+
+Since we are going to be dealing with binary data, it is necessary to import the pickle function as shown in Figure 2:
+![This is an image](./images/Picture2.png)
+Figure 2 - Pickle Function
+
+Next, we had the data section of the script (see Figure 3) to initialize variables.  To be honest, this was not used as extensively as it could have been.
+
+![This is an image](./images/Picture3.png)
+Figure 3 - Data section of script
+
+The processing section contains two functions.  For the pickling demonstration, it will make use of the read_data_from_file and save_data_to_file functions.  They read and write data respectively to an external binary file.
+
+![This is an image](./images/Picture4.png)
+Figure 4 - Processing section with its custom functions
+
+The presentation section of the script is a bit of a misnomer because it not only presents information to the user and seeks input, but also does a few operations.
+
+First, the script showed a simple try/except loop (see Figure 5) for when an external file does exist.
+
+![This is an image](./images/Picture5.png)
+Figure 5 - Example of simple try/except error handling
+
+Next, the script asked (shown below in Figure 6) for two pieces of information from the user.  Using pickling, that information was stored in a binary file.
+
+![This is an image](./images/Picture6.png)
+Figure 6 - Simple example of pickling
+
+Finally, the script went through pickling while checking for errors.  The situation was a bit contrived, but by having the script load the binary file at the beginning, it allowed an opportunity for the file not to exist and make use of the except FileNotFoundError section.
+
+![This is an image](./images/Picture7.png)
+Figure 7 - Pickling within a try section
+
+The except sections (see Figure 8) looked for two specific types of errors:  the binary file that Python is trying to load not existing, and the script trying to divide by zero due to the choice of number made by the user.  Finally, for an error other than those two, there was a general except exception section at the end to give the user a friendly message and show them what Python found.
+
+![This is an image](./images/Picture8.png)
+Figure 8 - Except section for error handling
+
+In Figure 9, we see an example of the script running in the PyCharm IDE.
+
+![This is an image](./images/Picture9.png)
+Figure 9 - Output from PyCharm
+
+Finally, Figure 10 shows the script running in the MacOS Terminal.
+
+![This is an image](./images/Picture10.png)
+Figure 10 - MacOS Terminal script output sample
+
+The binary file created by the script is shown in Figure 11.  It is not readable by the human eye.
+
+![This is an image](./images/Picture11.png)
+Figure 11 - Output of the script in one of the binary files
+
