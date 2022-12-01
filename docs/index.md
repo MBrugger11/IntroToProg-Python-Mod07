@@ -5,13 +5,13 @@ Assignment07<br />
 https://github.com/MBrugger11/IntroToProg-Python-Mod07
 
 
-#DIY Demo Script
+# DIY Demo Script
 
-##Introduction
+## Introduction
 
 This week it was our turn to create a demo script to showcase concepts we learned this week.  It was our first time in a few weeks starting with a blank file rather than some starter code.
 
-##Learning concepts this week
+## Learning concepts this week
 
 First, we were formally introduced to interfacing with text files in Python.  We were given a few snippets of code early in the class to get a feel for how text file reading/writing worked, but now the concept was expanded in scope.
 
@@ -27,7 +27,7 @@ Structured Error Handling is another item that we scratched the surface with a f
 
 It is also possible to catch specific exceptions (e.g. dividing by zero errors, trying to read external files that do not exist, etc.) and write except sections for each one so that the user can get a helpful error message or specific code to help with the situation.  If the specific exceptions do not catch the error, there is a catch-all “except exception” at the end for all other error types.
 
-##Process to make program
+## Process to make program
 
 This week’s assignment was very open-ended.  We needed to demonstrate working with binary files and error handling.  It was recommended to demo them separately and then have a demo to demo them together.
 
@@ -87,4 +87,8 @@ The binary file created by the script is shown in Figure 11.  It is not readable
 
 ![This is an image](./images/Picture11.png)<br />
 Figure 11 - Output of the script in one of the binary files
+
+## Summary
+
+This week we created a demo script from scratch to demonstrate error handling and working with binary files instead of the more typical text file that we had been using.  Both concepts were demonstrated separately and then together as one integrated section of the script.
 
