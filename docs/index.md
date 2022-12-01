@@ -91,4 +91,3 @@ Figure 11 - Output of the script in one of the binary files
 ## Summary
 
 This week we created a demo script from scratch to demonstrate error handling and working with binary files instead of the more typical text file that we had been using.  Both concepts were demonstrated separately and then together as one integrated section of the script.
-
